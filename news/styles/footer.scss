@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+#footer {
+    margin-top: 250px;
+    position: relative; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #f8f8f8; /* Цвет фона */
+    color: rgb(243, 243, 243); /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    .about{
+        display: block;
+        margin-right: 50px;
+        h1{
+        font-size: 20px;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        }
+        img{
+        width: 50%;
+        height: 50%;
+        }
+        p{
+        font-size: 15px;
+        color: rgb(56, 56, 56);
+        font-family: 'Oswald', sans-serif;
+        }
+        .vk{
+            width: 20%;
+            height: 25%;
+        }
+}
+   }

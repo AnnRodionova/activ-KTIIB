@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+section {
+  display: flex;
+}
+
+.redactor {
+  font-family: "Oswald", sans-serif;
+}
+.redactor .addCont {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.redactor .addCont p {
+  font-size: 25px;
+  margin-bottom: 2px;
+  margin-right: 230px;
+}
+.redactor .addCont input {
+  background-color: white;
+  border: 3px solid rgb(45, 188, 245);
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.redactor .addCont textarea {
+  background-color: white;
+  border: 3px solid rgb(45, 188, 245);
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.redactor .addCont .btn:hover {
+  background-color: #2fb5eb;
+}
+.redactor .new {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  box-shadow: -3px 4px 38px 0px rgba(34, 60, 80, 0.2);
+}
+.redactor .new h1 {
+  font-family: "Oswald", sans-serif;
+  white-space: nowrap;
+  font-size: 40px;
+  color: #2e2e2e;
+  margin-left: 20px;
+}
+.redactor .new .photo {
+  max-width: 100%;
+  background-color: #35abf0;
+  padding: 15px;
+}
+.redactor .new .photo img {
+  max-width: 100%;
+}
+.redactor .new .description {
+  padding: 10px;
+}
+.redactor .new .description p {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+@media (max-width: 900px) {
+  .redactor .new {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 1300px) {
+  .redactor .new {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 900px) {
+  .redactor .news {
+    margin-right: 30px;
+  }
+}
+.redactor .col-md-6.col-lg-6.col-sm-12 {
+  margin-top: 50px;
+}/*# sourceMappingURL=manCont.css.map */

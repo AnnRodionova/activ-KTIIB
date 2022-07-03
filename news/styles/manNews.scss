@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+
+.redactor{
+    font-family: "Oswald", sans-serif;
+    .addNews{
+        margin-left: 40%;
+        margin-top: 20px;
+        p{
+            font-size: 25px;
+            margin-bottom: 2px;
+            margin-right: 230px;
+        }
+        
+        input{
+            background-color: white;
+            border: 3px solid rgb(45, 188, 245);
+            border-radius: 10px;
+            width: 300px;
+            height: 40px;
+            font-family: "Oswald", sans-serif;
+            font-size: 15px;
+            margin-top: 20px;
+
+        }
+        textarea{
+            background-color: white;
+            border: 3px solid rgb(45, 188, 245);
+            border-radius: 10px;
+            width: 300px;
+            height: 40px;
+            font-family: "Oswald", sans-serif;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        .btn:hover{
+            background-color: #3a1beb;
+        }
+    }
+    .new{
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;
+        border-radius: 15px;
+        -webkit-box-shadow: -3px 4px 38px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: -3px 4px 38px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: -3px 4px 38px 0px rgba(34, 60, 80, 0.2);
+    
+            h1{
+                font-family: 'Oswald', sans-serif;
+                white-space: nowrap;
+                font-size: 40px;
+                color: #2e2e2e;
+                margin-left: 20px;
+            }
+            .photo{
+                max-width: 100%;
+                background-color: #35abf0;
+                padding: 15px;
+    
+                img{
+                    max-width: 100%;
+                }
+            }
+            .description{
+                padding: 10px;
+                p{
+                font-size: 20px;
+                font-family: 'Oswald', sans-serif; ;
+                }
+            }
+            @media  (max-width: 900px) {
+                margin-left: 0px;
+                
+            }
+            @media  (max-width: 1300px) {
+                margin-left: 0px;
+                
+            }
+    
+        }
+    
+        .news{
+    
+            @media  (max-width: 900px) {
+                margin-right: 30px;
+            }
+        }
+    
+    .col-md-6.col-lg-6.col-sm-12{
+    margin-top: 50px;
+    
+    }
+    
+}
+
+
